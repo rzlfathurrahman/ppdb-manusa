@@ -1,0 +1,33 @@
+[22-Nov-2019 16:15:29 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_ppdb::ambil_id_peserta() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Peserta.php on line 57
+[23-Nov-2019 07:11:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'nama_lengkap' (T_STRING) in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/views/daftar.php on line 18
+[23-Nov-2019 17:17:46 Asia/Jakarta] PHP Fatal error:  Call to a member function jumlah_peserta() on a non-object in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 27
+[23-Nov-2019 18:04:56 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:57 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:58 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:05:59 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:06:00 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:06:00 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:06:00 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[23-Nov-2019 18:06:00 Asia/Jakarta] PHP Fatal error:  Call to undefined method Model_jumlah::jumlah_jurusan() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Dashboard.php on line 28
+[25-Nov-2019 10:39:53 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Peserta::detail() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Peserta.php on line 64
+[27-Nov-2019 09:10:58 Asia/Jakarta] PHP Fatal error:  Call to a member function tampil_data() on a non-object in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Nilai.php on line 7
+[27-Nov-2019 09:18:47 Asia/Jakarta] PHP Fatal error:  Call to a member function tampil_data() on a non-object in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Nilai.php on line 7
+[27-Nov-2019 11:17:36 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '?' in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/views/admin/daftar_nilai.php on line 49
+[03-Dec-2019 19:03:17 Asia/Jakarta] PHP Fatal error:  Cannot re-assign $this in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/controllers/admin/Nilai.php on line 23
+[10-Dec-2019 12:53:10 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:54:28 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:54:29 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:54:29 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:36 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:37 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:37 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:37 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:38 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:38 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:38 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:38 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
+[10-Dec-2019 12:55:38 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Model_nilai::update_data() in /home/smkmanus/ppdb.smkmanusa-ajb.sch.id/application/models/Model_nilai.php on line 22
