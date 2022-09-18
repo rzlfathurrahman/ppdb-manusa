@@ -7,34 +7,15 @@
 </div>
 
 <!-- jQuery -->
-<script src="<?php echo base_url() ?>assets/plugins/jquery/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js' integrity='sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==' crossorigin='anonymous'></script>
 
 <!-- AdminLTE -->
-<!-- <script src="<?php echo base_url() ?>assets/dist/js/adminlte.js"></script> -->
-
-<!-- OPTIONAL SCRIPTS -->
-<!-- <script src="<?php echo base_url() ?>assets/dist/js/pages/dashboard3.js"></script> -->
-
-<!-- jQuery UI 1.11.4 -->
-<script src="<?php echo base_url() ?>assets/plugins/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button)
-</script>
-<!-- Bootstrap 4 -->
-<script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="<?php echo base_url() ?>assets/plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="<?php echo base_url() ?>assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="<?php echo base_url() ?>assets/dist/js/pages/dashboard.js"></script> -->
-<!-- AdminLTE for demo purposes -->
-<!-- <script src="<?php echo base_url() ?>assets/dist/js/demo.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 
 <!-- DataTables -->
-<script src="<?php echo base_url() ?>assets/plugins/datatables/jquery.dataTables.js"></script>
-<script src="<?php echo base_url() ?>assets/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+
 <!-- page script -->
 <script>
   $(function() {

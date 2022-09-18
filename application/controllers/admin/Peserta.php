@@ -143,12 +143,19 @@ class Peserta extends CI_Controller
 			$baris++;
 		}
 
-		$file_date = date('d-m-Y');
-		$filename = "Peserta PPDB-({$file_date}).xlsx";
+		$file_date = date('d-m-Y h:m:s');
+		$filename = "Peserta PPDB-({$file_date})xlsx";
 
-		$writer = new Xlsx($spreadsheet);
-		$writer->save($filename);
-		return $this->index();
+		// redirect output to client browser
+		header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+		header('Content-Disposition: attachment;filename="' . $filename);
+		header('Cache-Control: max-age=0');
+
+		$writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
+		$writer->save('php://output');
+		// $writer = new Xlsx($spreadsheet);
+		// $writer->save($filename);
+		// return $this->index();
 	}
 }
 

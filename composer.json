@@ -20,6 +20,7 @@
 	"require-dev": {
 		"mikey179/vfsstream": "1.1.*",
 		"phpunit/phpunit": "4.* || 5.*",
-		"kint-php/kint": "^4.2"
+		"kint-php/kint": "^4.2",
+		"maximebf/debugbar": "^1.18"
 	}
 }
